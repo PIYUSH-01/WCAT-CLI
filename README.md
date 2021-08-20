@@ -25,7 +25,7 @@ etc.
 
 ### Flags added till now
 
-Less | Pretty
+Flag name | Flag's function
 :---: | ---
 `-rs` | split the data with spaces in between and then join them without any space betweeen them
 `-rn` | split the data whenever encounter a "newline" and then join all together in one line.
