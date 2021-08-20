@@ -1,11 +1,11 @@
-#WCAT-CLI
+# WCAT-CLI
 ----------
 
 Hey there!
 Thanks for viewing my WCAT-CLI project. Below you can find the basic overview of this project and you can use this on your pc too.
 Just install node before trying to run it if you haven't already.
 
-## [Installation Guide] (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+### [Installation Guide] (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 Now that you're all set with the prerequisites let me give you short overview of the functionalitites that have been added:-
 
@@ -23,7 +23,7 @@ etc.
 
 
 
-## Flags added till now
+### Flags added till now
 
 Less | Pretty
 :---: | ---
