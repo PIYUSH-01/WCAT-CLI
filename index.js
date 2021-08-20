@@ -33,7 +33,7 @@ for(let file of filenames) {
                 fileData = removeAll(fileData, specifically);
             }
         } 
-        if(flag == "-rsc") { //flag present -rsc then remove whatever is present in front of it must be removed fromthe file.
+        if(flag == "-rsc") { //flag present -rsc then remove whatever is present in front of it except letters and spaces.
             let tempString = "";
             for(let character of fileData) { 
                 if((character.charCodeAt(0) >= 65 && character.charCodeAt(0) <= 90) || (character.charCodeAt(0) >= 97 && character.charCodeAt(0) <= 122) || character== " ") {  
