@@ -1,5 +1,5 @@
 # WCAT-CLI
-==========
+----------
 
 Hey there!
 Thanks for viewing my WCAT-CLI project. Below you can find the basic overview of this project and you can use this on your pc too.
