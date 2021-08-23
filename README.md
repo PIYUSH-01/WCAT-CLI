@@ -7,6 +7,7 @@ Just install node before trying to run it if you haven't already.
 
 ## [Installation Guide] (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 =======================
+## After Installing the prerequisites now you'd need to run the command _sudo npm link_(for mac) & _npm link_(for other OS) in order to be able to use 'wcat' in place of 'node index.js'.
 
 Now that you're all set with the prerequisites let me give you short overview of the functionalitites that have been added:-
 
@@ -32,9 +33,9 @@ Less | Pretty
 `-rs` | split the data with spaces in between and then join them without any space betweeen them
 `-rn` | split the data whenever encounter a "newline" and then join all together in one line.
 `-remspec` | remove specific argument that we'd pass in the statement with a % in front of it
-`-rsc` | emove whatever is given in front of this flag except letters and spaces.
-`-s` | add numbering in front of all the lines present in the file given.
-`-sn` | add nubering in front of all the non-empty lines present in the file given.
+`-rsc` | remove whatever is given in front of this flag except letters and spaces.
+`-s` | add serialised numbering in front of all the lines present in the file given.
+`-sn` | add serialised numbering in front of all the non-empty lines present in the file given.
 `-rel` | remove all extra/empty lines present in our file
 `-rel1` | remove all extra/empty lines except 1 empty line after every non-empty line present in our file
 `-a2f1` | read the given files and then append their data and add it into a new file.

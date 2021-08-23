@@ -17,11 +17,15 @@ for(let i of arguments) {
     }
 }
 
+// functionalities available in our wcat
 
 for(let file of filenames) {
     
     let fileData = fs.readFileSync(file, "utf-8");
     for(let flag of flags) {
+        if(flag == "-sd") {
+
+        }
         if(flag == "-rs") { //flag present -rs then split based on spaces and then convert them into array of elements where elements would be words in our string and then join all elements after split without any space betweeen them
             fileData = removeAll(fileData, " ");
         } 
@@ -33,7 +37,7 @@ for(let file of filenames) {
                 fileData = removeAll(fileData, specifically);
             }
         } 
-        if(flag == "-rsc") { //flag present -rsc then remove whatever is present in front of it except letters and spaces.
+        if(flag == "-rsc") { //flag present -rsc then remove whatever is present in it except letters and spaces.
             let tempString = "";
             for(let character of fileData) { 
                 if((character.charCodeAt(0) >= 65 && character.charCodeAt(0) <= 90) || (character.charCodeAt(0) >= 97 && character.charCodeAt(0) <= 122) || character== " ") {  
@@ -65,7 +69,7 @@ for(let file of filenames) {
                 console.log(fileData);
             });
 
-            fs.appendFileSync("appendedFile.txt", data);
+            fs.appendFileSync("appendedFile.txt", fileData);
         }
 
         if(flag == "-cf") { //flag present -cf then delete/clear the contents of the given file/files.
@@ -111,6 +115,7 @@ function addSequenceTnel(fileData) { //similar to above just avoid lines which d
     }    
 }
 
+// function to remve extra lines
 function removeExtraLines(fileData) {
     let lines = fileData.split("\n");
     for(let i = 0; i < lines.length; i++) {

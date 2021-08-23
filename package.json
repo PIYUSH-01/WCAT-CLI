@@ -1,7 +1,7 @@
 {
   "name": "wcat",
   "version": "1.0.0",
-  "description": "",
+  "description": "==========",
   "main": "index.js",
   "bin": {
     "wcat": "index.js"
@@ -11,5 +11,13 @@
     "wcat": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PIYUSH-01/WCAT-CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PIYUSH-01/WCAT-CLI/issues"
+  },
+  "homepage": "https://github.com/PIYUSH-01/WCAT-CLI#readme"
 }
