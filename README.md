@@ -26,9 +26,9 @@ etc.
 
 ### Flags added till now
 
-Flag name | Flag's function
-:---: | ---
-`-pd` | print the data of the file given.
+Flag name | Flag's function | Demo
+:---: | --- | ---
+`-pd` | print the data of the file given. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/-pd)
 `-sd` | sort the data of the file given.
 `-rs` | split the data with spaces in between and then join them without any space betweeen them
 `-rn` | split the data whenever encounter a "newline" and then join all together in one line.
@@ -41,4 +41,12 @@ Flag name | Flag's function
 `-a2f1` | read the given files and then append their data and add it into a new file.
 `-cf` | then delete/clear the contents of the given file/files.
 `-df` | then delete the given file/files.
+
+
+### Flags demo
+
+<a name="-pd"></a>
+![Screenshot 2021-08-27 at 2 42 58 PM](https://user-images.githubusercontent.com/52041719/131103664-7c9cfc4a-633b-496c-9dce-20aa107199db.png)
+
+
 
