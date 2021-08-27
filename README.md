@@ -26,21 +26,21 @@ etc.
 
 ## Flags added till now
 
-Flag name | Flag's function | Demo
-:---: | --- | ---
-`-pd` | print the data of the file given. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-pd)
-`-sd` | sort the data of the file given. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-sd)
-`-rs` | split the data with spaces in between and then join them without any space betweeen them. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rs)
-`-rn` | split the data whenever encounter a "newline" and then join all together in one line. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rn)
-`-remspec` | remove specific argument that we'd pass in the statement with a % in front of it. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-remspec)
-`-rsc` | remove whatever is given in front of this flag except letters and spaces. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rsc)
-`-s` | add serialised numbering in front of all the lines present in the file given. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-s)
-`-sn` | add serialised numbering in front of all the non-empty lines present in the file given. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-sn)
-`-rel` | remove all extra/empty lines present in our file | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rel)
-`-rel1` | remove all extra/empty lines except 1 empty line after every non-empty line present in our file | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rel1)
-`-a2f1` | read the given files and then append their data and add it into a new file. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-a2f1)
-`-cf` | then delete/clear the contents of the given file/files. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-cf)
-`-df` | then delete the given file/files. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-df)
+Flag name | Flag's function | Flag's Demo
+:---: | --- | :---:
+`-pd` | print the data of the file given. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-pd)
+`-sd` | sort the data of the file given. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-sd)
+`-rs` | split the data with spaces in between and then join them without any space betweeen them. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rs)
+`-rn` | split the data whenever encounter a "newline" and then join all together in one line. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rn)
+`-remspec` | remove specific argument that we'd pass in the statement with a % in front of it. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-remspec)
+`-rsc` | remove whatever is given in front of this flag except letters and spaces. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rsc)
+`-s` | add serialised numbering in front of all the lines present in the file given. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-s)
+`-sn` | add serialised numbering in front of all the non-empty lines present in the file given. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-sn)
+`-rel` | remove all extra/empty lines present in our file | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rel)
+`-rel1` | remove all extra/empty lines except 1 empty line after every non-empty line present in our file | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-rel1)
+`-a2f1` | read the given files and then append their data and add it into a new file. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-a2f1)
+`-cf` | then delete/clear the contents of the given file/files. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-cf)
+`-df` | then delete the given file/files. | [Click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-df)
 
 
 ## Flags demo
