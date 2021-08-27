@@ -5,10 +5,8 @@ Hey there!
 Thanks for viewing my WCAT-CLI project. Below you can find the basic overview of this project and you can use this on your pc too.
 Just install node before trying to run it if you haven't already.
 
-<<<<<<< HEAD
 ## [Installation Guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-=======================
-## After Installing the prerequisites now you'd need to run the command _sudo npm link_(for mac) & _npm link_(for other OS) in order to be able to use 'wcat' in place of 'node index.js'.
+### After Installing the prerequisites now you'd need to run the command _sudo npm link_(for mac) & _npm link_(for other OS) in order to be able to use 'wcat' in place of 'node index.js'.
 
 Now that you're all set with the prerequisites let me give you short overview of the functionalitites that have been added:-
 
