@@ -1,2 +1,5 @@
 Hey there!
-Along the way
+
+Welcome to my project -WCAT
+
+Make sure to try out all of our in built commands

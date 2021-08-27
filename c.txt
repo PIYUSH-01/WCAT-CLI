@@ -1,1 +1,11 @@
-Wcat project
+Thanks for your visit
+
+I hope you found this small CLI project interesting
+
+I'm gonna upload more projects soon. 
+
+You can folllow me on Github and other sites given in my ReadMe.md
+
+Don't forget to star this repository if you like it. :)
+
+Bye!!

@@ -6,6 +6,7 @@ let arguments = process.argv.slice(2);
 let flags = [];  
 let filenames = [];
 let specificArguments = []; 
+let printed = 0; //to ensure that our functions don't print data multple times.
 
 for(let i of arguments) {
     if(i[0] == "-") {
@@ -23,8 +24,19 @@ for(let file of filenames) {
     
     let fileData = fs.readFileSync(file, "utf-8");
     for(let flag of flags) {
-        if(flag == "-sd") {
-
+        if(flag == "-pd") { //flag present -pd then print the complete data of the file.
+            console.log(fileData);
+            console.log(`\n\nFile ${file} printed successfully!`);
+            printed = 1; //signifying already printed data
+        }
+        if(flag == "-sd") { //flag present -sd then sort the data of the given file.
+            let sortedData = sortTheFile(fileData);
+            for(let i = 0; i < sortedData.length; i++) {
+                if(sortedData[i].length != 0)
+                console.log(sortedData[i]);
+            }
+            console.log(`\n\nFile ${file} data sorted and printed successfully!`);
+            printed = 1; //signifying already printed data
         }
         if(flag == "-rs") { //flag present -rs then split based on spaces and then convert them into array of elements where elements would be words in our string and then join all elements after split without any space betweeen them
             fileData = removeAll(fileData, " ");
@@ -78,12 +90,30 @@ for(let file of filenames) {
         }
 
         if(flag == "-df") {  //flag present -df then delete the given file/files
-            fileData = file + "succesfully deleted."
+            fileData = `${file} succesfully deleted.`;
             fs.unlinkSync(file);
         }
     }
+    if(printed != 1) { 
+        console.log(fileData);  //PRINTING
+    }    
+    printed = 0; //reinitalising with '0' saying data needs to be printed.
+}
 
-    console.log(fileData);  //PRINTING
+
+// below is the function that'd be responsble for sorting the given data as per the initial characters of every line
+function sortTheFile(fileData) {
+    let lines = fileData.split("\n");
+    let sortedData=[]; //empty array to store the sorted d
+
+    for(let i = 0; i < lines.length; i++){
+        if(lines[i].length != 0){ //if the current line is empty that is the case when there might be a newline character that has to be saved but
+            sortedData.push(lines[i]);
+        }
+    }
+
+    sortedData.sort(); //now sorting the data finally
+    return sortedData;
 }
 
 // created a function for the functionality of removing something and then joining without them in ordeer to prevent its redundant typing in every if conditition
