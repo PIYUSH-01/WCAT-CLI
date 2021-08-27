@@ -28,7 +28,7 @@ etc.
 
 Flag name | Flag's function | Demo
 :---: | --- | ---
-`-pd` | print the data of the file given. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/-pd)
+`-pd` | print the data of the file given. | [For demo click here](https://github.com/PIYUSH-01/WCAT-CLI/blob/main/README.md/#-pd)
 `-sd` | sort the data of the file given.
 `-rs` | split the data with spaces in between and then join them without any space betweeen them
 `-rn` | split the data whenever encounter a "newline" and then join all together in one line.
