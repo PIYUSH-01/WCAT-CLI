@@ -167,5 +167,5 @@ function removeExtraLinesEceptOne(fileData) {
             console.log("");
         }
     }
-    // this function is not returning anyting kyuki ham yahi print kara rhe hai
+    // this function is not returning anyting kyuki ham yahi print kara hai
 }
