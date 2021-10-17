@@ -20,7 +20,7 @@ etc.
 *_You can find detailed explanation of each and every flag that has been added into this CLI till now below along with a link that'll lead you to it's demo._*
 
 
-2. In order to give this custom CLI a feel of an original one we've created a custom script that enabled us to use **wcat** in place of **npm run wcat** while doing/performing something with our CLI.
+2. In order to give this custom CLI a feel of an original one we've created a custom script that enabled us to use **wcat** in place of **npm run wcat** while doing/performing anything in our CLI.
 
 
 
