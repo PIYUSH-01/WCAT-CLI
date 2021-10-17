@@ -97,7 +97,7 @@ for(let file of filenames) {
     if(printed != 1) { 
         console.log(fileData);  //PRINTING
     }    
-    printed = 0; //reinitalising with '0' saying data needs to be printed.
+    printed = 0; //reinitalising with 0 saying data needs to be printed.
 }
 
 
